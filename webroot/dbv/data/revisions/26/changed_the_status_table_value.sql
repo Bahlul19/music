@@ -1,0 +1,1 @@
+ALTER TABLE `posts` CHANGE `status` `status` TINYINT(1) NOT NULL DEFAULT '0' COMMENT '0:draft,1:published';

@@ -1,0 +1,1 @@
+INSERT INTO `roles` (`id`, `name`, `created`, `modified`) VALUES ('4', 'prime_member', '2019-05-14 00:00:00', '2019-05-14 00:00:00');

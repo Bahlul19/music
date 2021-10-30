@@ -1,0 +1,268 @@
+/*Custom css code written into under these*/
+main {
+    margin-top: 56px;
+}
+.main{
+ 	margin-top: 70px;
+}
+
+h5.title {
+	font-size: 20px;
+	font-family: 'Passion One', cursive;
+	font-weight: 400;
+    color: white;
+}
+
+hr{
+	width: 10%;
+	color: #fff;
+}
+
+.form-group{
+	margin-bottom: 15px;
+}
+
+label{
+	margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.main-login{
+ 	background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.main-center{
+ 	margin-top: 30px;
+ 	margin: 0 auto;
+ 	max-width: 330px;
+    padding: 40px 40px;
+
+}
+
+.forgotPassword
+{
+    float: right;
+}
+
+/* Dropdown */
+
+.dropdown-menu {
+    width: 245px !important;
+}
+
+a.dropdown-item {
+    color: #000 !important;
+    display: block !important;
+    padding: 10px 20px !important;
+    text-transform: uppercase !important;
+    font-family: 'Yanone Kaffeesatz', 'sans-serif' !important;
+    font-size: 16px !important;
+}
+
+@media only screen and (min-width: 1023px) and (max-width: 1100px) {
+    .navbar-inverse .navbar-nav > li >a {
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+    .navbar-inverse .navbar-nav > li >a {
+        font-size: 12px !important;
+    }
+
+    .nav > li > a {
+        padding: 15px 10px !important;
+    }
+}
+
+.custom-button
+{
+    background: transparent !important;
+    font-size: 23px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Yanone Kaffeesatz', 'sans-serif';
+    padding-top: 10px;
+}
+
+option {
+   color: black;
+}
+
+select {
+    color: black;
+    display: block;
+}
+
+label > #state-id
+{
+    display: none;
+}
+
+/*input[type="text"]{height: 20px; vertical-align: top;}*/
+.field_wrapper div{margin-bottom: 10px;}
+.add_button{margin-top: 10px; margin-left: 10px; vertical-align: text-bottom;}
+.remove_button{margin-top: 10px; margin-left: 10px; vertical-align: text-bottom;}
+.blog-list-title
+{color: #fff;font-size: 16px;font-weight: 600;margin-bottom: 15px;}
+
+.middle-section
+{
+    background: white;
+    color: black;
+}
+
+<<<<<<< .mine
+/*New style for blog listing*/
+
+=======
+
+
+>>>>>>> .theirs
+
+
+/*new code for progress bar*/
+
+.barfiller {
+    width:100%;
+    height:12px;
+    background:#fcfcfc;
+    border:1px solid #ccc;
+    position:relative;
+    margin-bottom:20px;
+    box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,.5);
+    -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,.5);
+}
+
+.barfiller .fill {
+    display:block;
+    position:relative;
+    width:0px;
+    height:100%;
+    background:#333;
+    z-index:1;
+}
+
+.barfiller .tipWrap {
+    display:none;
+}
+
+.barfiller .tip {
+    margin-top:-30px;
+    padding:2px 4px;
+    font-size:11px;
+    color:#fff;
+    left:0px;
+    position:absolute;
+    z-index:2;
+    background: #333;
+}
+
+.barfiller .tip:after {
+    border:solid;
+    border-color:rgba(0,0,0,.8) transparent;
+    border-width:6px 6px 0 6px;
+    content:"";
+    display:block;
+    position:absolute;
+    left:9px;
+    top:100%;
+    z-index:9
+}
+.blogShort{ border-bottom:1px solid #ddd;}
+.add{background: #333; padding: 10%; height: 300px;}
+
+.nav-sidebar {
+    width: 100%;
+    padding: 8px 0;
+    border-right: 1px solid #ddd;
+}
+.nav-sidebar a {
+    color: #333;
+    -webkit-transition: all 0.08s linear;
+    -moz-transition: all 0.08s linear;
+    -o-transition: all 0.08s linear;
+    transition: all 0.08s linear;
+}
+.nav-sidebar .active a {
+    cursor: default;
+    background-color: #34ca78;
+    color: #fff;
+}
+.nav-sidebar .active a:hover {
+    background-color: #37D980;
+}
+.nav-sidebar .text-overflow a,
+.nav-sidebar .text-overflow .media-body {
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+
+/*preloader code*/
+
+.loader {
+  display: inline-block;
+  width: 30px;
+
+  position: absolute;
+  z-index:3;
+
+  top: 35%;
+  left: 42%;
+  animation: loader 2s infinite ease;
+
+  text-align: center;
+}
+
+.error-template {padding: 40px 15px;text-align: center;}
+.error-actions {margin-top:15px;margin-bottom:15px;}
+.error-actions .btn { margin-right:10px; }
+
+.user-details-information
+{
+    color: white
+}
+
+.noPosts
+{
+    text-decoration: none;
+    font-size:25px;
+    color: orange;
+    font-weight: bold;
+    text-align:center
+}
+
+.readmore
+{
+    font-size: 15px;
+}
+
+.blogListText
+{
+    margin-top: 10px;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.audio-player{
+    width: 100%;
+    padding: 10px;
+}

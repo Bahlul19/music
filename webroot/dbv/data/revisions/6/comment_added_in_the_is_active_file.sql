@@ -1,0 +1,1 @@
+ALTER TABLE `media_metas` CHANGE `is_active` `is_active` TINYINT(1) NOT NULL DEFAULT '1' COMMENT '0-not_active, 1-is_active';

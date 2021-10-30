@@ -1,0 +1,1 @@
+ALTER TABLE `posts` CHANGE `content_type` `content_type` TINYINT(1) NOT NULL DEFAULT '0' COMMENT '0:pages,1:news';

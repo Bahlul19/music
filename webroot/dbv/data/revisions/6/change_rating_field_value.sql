@@ -1,0 +1,1 @@
+ALTER TABLE `media_metas` CHANGE `ratings` `ratings` INT(11) NULL DEFAULT NULL;

@@ -1,0 +1,1 @@
+ALTER TABLE `media_metas` CHANGE `price` `price` INT(11) NULL DEFAULT NULL;

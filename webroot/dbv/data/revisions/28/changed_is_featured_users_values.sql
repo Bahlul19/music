@@ -1,0 +1,1 @@
+ALTER TABLE `users` CHANGE `is_featured` `is_featured` TINYINT(1) NULL DEFAULT '0';

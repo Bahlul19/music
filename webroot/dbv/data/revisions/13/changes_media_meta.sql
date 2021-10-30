@@ -1,0 +1,1 @@
+ALTER TABLE `media_metas` CHANGE `media_link` `media_link` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL;

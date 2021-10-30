@@ -1,0 +1,81 @@
+.image-container {
+    position: relative;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 39.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.image-container:hover .image {
+    opacity: 0.3;
+}
+
+.image-container:hover .middle {
+    opacity: 1;
+}
+
+.userData,
+.image-container {
+    display: inline-block;
+    padding: 16px 34px 16px 0;
+}
+
+div#myTabContent {
+    padding: 24px 0px;
+}
+
+.admin-save-changes {
+    display: inline-block;
+    float: right;
+    margin-top: 74px;
+}
+
+.image-container img {
+    height: 200px;
+    padding: 18px 0;
+}
+/*feedback css*/
+.admin_feedbacks {
+    padding: 30px 50px;
+}
+.section_title {
+    text-align: center;
+}
+.feedbacktable {
+    color: black;
+}
+.feedbacks.view,
+.feedbacks.reply {
+    padding: 50px 10px;
+}
+
+.status {
+    color: green;
+}
+.fbdata {
+    color: #84b2c0;
+}
+.unread {
+    color: #242121;
+}
+
+/* End :feedback */
+.dataTables_filter {
+    float: right;
+}

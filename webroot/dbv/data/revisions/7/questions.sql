@@ -1,0 +1,1 @@
+CREATE TABLE `inthehouse`.`questions` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `question` VARCHAR(255) NOT NULL , `status` VARCHAR(255) NOT NULL , `created` DATETIME NOT NULL , PRIMARY KEY (`id`)) ENGINE = MyISAM;

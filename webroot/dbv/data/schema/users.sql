@@ -1,0 +1,21 @@
+CREATE TABLE `users` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `first_name` varchar(50) NOT NULL,
+  `last_name` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `username` varchar(50) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `token` varchar(50) DEFAULT NULL,
+  `address` text NOT NULL,
+  `city` varchar(50) NOT NULL,
+  `zipcode` varchar(50) NOT NULL,
+  `gender` tinyint(2) NOT NULL COMMENT 'false:male,true:female',
+  `mobie_phone` varchar(50) NOT NULL,
+  `state_id` int(11) NOT NULL,
+  `country_id` int(11) NOT NULL,
+  `is_active` tinyint(1) NOT NULL DEFAULT 1,
+  `is_deleted` tinyint(4) NOT NULL DEFAULT 0 COMMENT '1:deleted',
+  `created` datetime DEFAULT NULL,
+  `modified` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8

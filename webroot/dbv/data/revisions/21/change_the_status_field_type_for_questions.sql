@@ -1,0 +1,1 @@
+ALTER TABLE `questions` CHANGE `status` `status` TINYINT(1) NOT NULL DEFAULT '0' COMMENT '0-disabled,1-enabled';
